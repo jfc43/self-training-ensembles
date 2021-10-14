@@ -22,21 +22,27 @@ It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries
 ### Examples
 
 * To train a standard model via supervised learning, you can use the following command:
+
 `python train_model.py --source-dataset {source dataset} --model-type {model type} --base-dir {directory to save the model}`
 
 `{source dataset}` can be `mnist`, `mnist-m`, `svhn` or `usps`.
+
 `{model type}` can be `typical_dnn` or `dann_arch`. 
 
 * To train a domain adaptive (DANN) model, you can use the following command:
+
 `python train_dann.py --source-dataset {source dataset} --target-dataset {target dataset} --base-dir {directory to save the model} [--test-time]`
 
 `{source dataset}` (or `{target dataset}`) can be `mnist`, `mnist-m`, `svhn` or `usps`.
+
 The argument `--test-time` is to indicate whether to replace the target training dataset with the target test dataset. 
 
 * To evaluate a method on all training-test dataset pairs, you can use the following command:
+
 `python eval_pipeline.py --model-type {model type} --method {method}`
 
 `{model type}` can be `typical_dnn` or `dann_arch`. 
+
 `{method}` can be `conf_avg`, `ensemble_conf_avg`, `conf`, `trust_score`, `proxy_risk`, `our_ri` or `our_rm`.
 
 ### Train All Models
