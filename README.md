@@ -59,3 +59,17 @@ You can run the following script to get the results reported in the paper.
 
 ## Acknowledgements
 Part of this code is inspired by [estimating-generalization](https://github.com/chingyaoc/estimating-generalization) and [TrustScore](https://github.com/google/TrustScore). 
+
+## Citation 
+Please cite our work if you use the codebase: 
+```
+@article{chen2021detecting,
+  title={Detecting Errors and Estimating Accuracy on Unlabeled Data with Self-training Ensembles},
+  author={Chen, Jiefeng and Liu, Frederick and Avci, Besim and Wu, Xi and Liang, Yingyu and Jha, Somesh},
+  journal={arXiv preprint arXiv:2106.15728},
+  year={2021}
+}
+```
+
+## License
+Please refer to the [LICENSE](LICENSE).
