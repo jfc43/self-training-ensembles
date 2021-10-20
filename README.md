@@ -7,9 +7,7 @@ It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries
 * [numpy](http://www.numpy.org/)
 * [scikit-learn](https://scikit-learn.org/)
 
-To install requirements:
-
-`pip install -r requirements.txt`
+To install requirements: `pip install -r requirements.txt`
 
 ## Downloading Datasets
 * [MNIST-M](http://bit.ly/2fNqL6N): download it from the Google drive. Extract the files and place them in `./dataset/mnist_m/`. 
