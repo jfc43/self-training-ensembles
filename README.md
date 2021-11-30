@@ -73,7 +73,8 @@ Please cite our work if you use the codebase:
 @article{chen2021detecting,
   title={Detecting Errors and Estimating Accuracy on Unlabeled Data with Self-training Ensembles},
   author={Chen, Jiefeng and Liu, Frederick and Avci, Besim and Wu, Xi and Liang, Yingyu and Jha, Somesh},
-  journal={arXiv preprint arXiv:2106.15728},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
   year={2021}
 }
 ```
