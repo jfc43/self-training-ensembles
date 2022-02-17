@@ -2,7 +2,7 @@
 This repository is the official implementation of [Detecting Errors and Estimating Accuracy on Unlabeled Data with Self-training Ensembles](https://arxiv.org/abs/2106.15728). 
 
 ## Requirements
-* It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requries some packages to be installed: [PyTorch](https://pytorch.org/), [numpy](http://www.numpy.org/) and [scikit-learn](https://scikit-learn.org/). 
+* It is tested under Ubuntu Linux 16.04.1 and Python 3.6 environment, and requires some packages to be installed: [PyTorch](https://pytorch.org/), [numpy](http://www.numpy.org/) and [scikit-learn](https://scikit-learn.org/). 
 * To install requirements: `pip install -r requirements.txt`
 
 ## Downloading Datasets
